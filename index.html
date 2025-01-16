@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mani</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #6dd5fa, #2980b9);
+            color: #ffffff;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3.8em;
+            margin-top: 20px;
+            background: linear-gradient(90deg, #a51515, #311d82, #ffa98e, #d14f24);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        p {
+            color: #ffd47e;
+            font-size: 1.5em;
+            margin: 15px 0 25px;
+            background: linear-gradient(90deg, #6dd5fa, #1908d5, #29c9c9, #2fc7a2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 8px rgba(105, 12, 12, 0.3);
+        }
+
+        .photos {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .photos img {
+            width: 180px;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            border: 3px solid #ffffff;
+        }
+
+        .photos img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 1em;
+            color: #e0f7ff;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+        }
+        .day{
+            background-color:#e2164d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="day">Happy Birthday, Mani!</h1>
+        <p >Many many happy return of the day</p>
+
+        <div class="photos">
+            <img src="mani.jpg" alt="Photo 1">
+            <img src="mani1.jpg" alt="Photo 2">
+        </div>
+
+        <footer>
+            From Sai Teja
+        </footer>
+    </div>
+</body>
+</html>
